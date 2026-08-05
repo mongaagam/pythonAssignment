@@ -88,10 +88,6 @@ This screenshot shows the successful execution of the program inside the virtual
 
 This screenshot shows the creation of the `requirements.txt` file using:
 
-```bash
-pip freeze > requirements.txt
-```
-
 <img width="1324" height="36" alt="Screenshot 2026-08-05 at 7 32 16 PM" src="https://github.com/user-attachments/assets/c41c1f22-f08c-4fc5-93bc-2223318f2a19" />
 
 ---
