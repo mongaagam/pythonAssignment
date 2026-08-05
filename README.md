@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-The objective of this assignment is to create a Python program that demonstrates the use of Python 3.11 features.
+The objective of this assignment is to create a Python program that uses Python 3.11 features and runs successfully in Python 3.11 but not in Python 3.8.
 
 The program should:
 
