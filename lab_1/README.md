@@ -54,7 +54,7 @@ python main.py
 The program prints:
 
 - Name: Agam Monga
-
+- Python Version: 3.11.13
 ---
 
 # Screenshots
@@ -70,13 +70,16 @@ This screenshot shows the creation of the Lab 1 project and the required files.
 ---
 
 ## 2. Python Program
-<img width="1030" height="83" alt="Screenshot 2026-08-05 at 7 31 43 PM" src="https://github.com/user-attachments/assets/0f71783d-41b1-4c79-be21-5a9215541279" />
+
+<img width="1470" height="163" alt="Screenshot 2026-08-05 at 8 34 56 PM" src="https://github.com/user-attachments/assets/b509addc-0dfd-4ca4-81d9-c6c86ca7b63d" />
+
 
 ## 3. Running the Program
 
 This screenshot shows the successful execution of the program inside the virtual environment.
 
-<img width="952" height="68" alt="Screenshot 2026-08-05 at 7 28 00 PM" src="https://github.com/user-attachments/assets/7a59a5b6-afe6-4532-8fae-9de378edd3b9" />
+<<img width="414" height="70" alt="Screenshot 2026-08-05 at 8 40 57 PM" src="https://github.com/user-attachments/assets/93ba1187-473a-458d-8045-fd8a858bf1db" />
+
 
 
 ---
