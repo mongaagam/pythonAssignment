@@ -54,7 +54,6 @@ python main.py
 The program prints:
 
 - Name: Agam Monga
-- Active Python Version
 
 ---
 
