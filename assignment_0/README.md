@@ -82,33 +82,34 @@ The program prints:
 
 # Screenshots
 
-## 1. Running the program in Python 3.11
+## Screenshots
 
-This screenshot shows the successful execution of the program using Python 3.11.13.
+### 1. Creating the Python File
+
+This screenshot shows the creation of the `assignment_0.py` file in the project directory.
 
 <img width="1470" height="364" alt="Screenshot 2026-08-05 at 6 23 18 PM" src="https://github.com/user-attachments/assets/6edf0127-0736-496b-8d9e-59c2291bbc02" />
 
 ---
 
-## 2. Multiplication Table Output
+### 2. Python Program
 
-This screenshot shows the multiplication table generated for the entered number.
+This screenshot shows the Python program written in `assignment_0.py`. The program prints the multiplication table of a number and demonstrates the use of the Python 3.11 features `ExceptionGroup` and `except*`.
 
 <img width="1470" height="956" alt="Screenshot 2026-08-05 at 6 24 12 PM" src="https://github.com/user-attachments/assets/4ce18b8c-3f37-4f55-89d6-ae2ab95c3047" />
 
 ---
 
-## 3. ExceptionGroup Demonstration
+### 3. Running the Program in Python 3.11
 
-This screenshot demonstrates the use of the `ExceptionGroup` feature introduced in Python 3.11.
-
-<img width="1470" height="457" alt="Screenshot 2026-08-05 at 6 24 27 PM" src="https://github.com/user-attachments/assets/1e4f8dd4-b8d0-43da-9516-83bff8ef0c61" />
-
----
-
-## 4. Exception Handling using `except*`
-
-This screenshot shows how the `except*` statement catches the `ValueError` from the `ExceptionGroup`.
+This screenshot shows that the program executes successfully using **Python 3.11.13**, as `ExceptionGroup` and `except*` are supported in Python 3.11.
 
 <img width="1470" height="265" alt="Screenshot 2026-08-05 at 6 25 22 PM" src="https://github.com/user-attachments/assets/61ae65e4-bc09-4900-8bb1-1973b97ad14b" />
 
+---
+
+### 4. Running the Program in Python 3.8
+
+This screenshot shows that the same program does **not** run in **Python 3.8.20** because `ExceptionGroup` and `except*` are Python 3.11 features and are not available in Python 3.8.
+
+<img width="1470" height="457" alt="Screenshot 2026-08-05 at 6 24 27 PM" src="https://github.com/user-attachments/assets/1e4f8dd4-b8d0-43da-9516-83bff8ef0c61" />
