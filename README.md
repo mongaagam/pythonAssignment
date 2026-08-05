@@ -1,5 +1,6 @@
 # 📂 Repository Structure
 
+```text
 pythonAssignment/
 │
 ├── README.md
@@ -14,3 +15,4 @@ pythonAssignment/
     ├── README.md
     ├── requirements.txt
     └── .gitignore
+```
