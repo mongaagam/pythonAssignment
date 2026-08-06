@@ -215,6 +215,6 @@ Q4:
 
 ## Sample Output
 
-<img width="1470" alt="Program Output" src="https://github.com/user-attachments/assets/YOUR_IMAGE_LINK">
+<img width="1468" height="463" alt="Screenshot 2026-08-06 at 1 40 34 PM" src="https://github.com/user-attachments/assets/1ca78485-2072-4263-aada-73f1cf4f633c" />
 
 
