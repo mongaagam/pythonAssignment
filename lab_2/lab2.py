@@ -52,3 +52,57 @@ def flatten_comp(list_of_list):
     
     return [i for sublist in list_of_list for i in sublist]
 
+
+## Q4
+def mean_of_file(path):
+
+    total = 0
+    count = 0
+
+    with open(path, "r") as file:
+
+        for line in file:
+
+            try:
+                num = float(line)
+                total += num
+                count += 1
+
+            except ValueError:
+                pass
+
+    if count == 0:
+        return 0
+
+    return total / count
+
+
+# Q5
+# List comprehension create the complete list in memory
+# Generator expression create one value at time and uses less memory
+
+
+# Q6
+if __name__ == "__main__":
+
+    print("Q1:")
+    print(word_count("Hello, hello World!"))
+
+    print("\nQ2:")
+    print(word_count_counter("Hello, hello World,"))
+
+    print("\nQ3 (Using Loop):")
+    print(flatten([[1, 2], [3, 4], [5]]))
+
+    print("\nQ3 (Using List Comp):")
+    print(flatten_comp([[1, 2], [3, 4], [5]]))
+
+    print("\nQ4:")
+
+    try:
+        print(mean_of_file("number.txt"))
+
+    except FileNotFoundError:
+        print("File not found)
+
+
