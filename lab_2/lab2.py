@@ -1,3 +1,4 @@
+"""Lab2 word-counter program""" 
 import string
 from collections import Counter
 
@@ -103,6 +104,6 @@ if __name__ == "__main__":
         print(mean_of_file("number.txt"))
 
     except FileNotFoundError:
-        print("File not found)
+        print("File not found")
 
 
