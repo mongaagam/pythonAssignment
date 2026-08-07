@@ -1,5 +1,5 @@
 import string
-from collection import counter
+from collections import Counter
 
 #Q1
 def word_count(text):
@@ -35,4 +35,20 @@ def word_count_counter(text):
     
     return Counter(words)
 
+#Q3 using loop
+def flatten(list_of_list):
+    
+    result=[]
+
+    for sublist in list_of_list:
+        for i in sublist:
+            result.append(i)
+ 
+
+    return result
+
+#using list Comprehension
+def flatten_comp(list_of_list):
+    
+    return [i for sublist in list_of_list for i in sublist]
 
