@@ -23,13 +23,15 @@ def word_count(text):
 
 #Q2
 def word_count_counter(text):
-
+     
     text=text.lower()
-    
+
     for ch in string.punctuation:
         text=text.replace(ch,"")
-    
+
+
     words=text.split()
+
     
     return Counter(words)
 
@@ -37,61 +39,62 @@ def word_count_counter(text):
 def flatten(list_of_list):
     
     result=[]
-   
+
     for sublist in list_of_list:
         for i in sublist:
             result.append(i)
+ 
 
     return result
-   
-#using List Comprehension
+
+#using list Comprehension
 def flatten_comp(list_of_list):
     
-    return [item for sublist in list_of_list for item in sublist]
+    return [i for sublist in list_of_list for i in sublist]
 
 
-
-#Q4
+## Q4
 def mean_of_file(path):
-      
-    total=0
-    count=0
-    
-    with open(path,"r") as file:
-        
-        for line in file: 
-            
-            try: 
-                num=float(line)
-                total+=num
-                count+=1
-            
-            except ValueError: 
+
+    total = 0
+    count = 0
+
+    with open(path, "r") as file:
+
+        for line in file:
+
+            try:
+                num = float(line)
+                total += num
+                count += 1
+
+            except ValueError:
                 pass
-      
-    if count==0:
+
+    if count == 0:
         return 0
 
-    return total/count 
-
-#Q5
-#List comrehension creates the complete list in memory
-#Generate expression cerates one value at a time and use less memory
+    return total / count
 
 
-#Q6
+# Q5
+# List comprehension create the complete list in memory
+# Generator expression create one value at time and uses less memory
+
+
+# Q6
 if __name__ == "__main__":
 
     print("Q1:")
     print(word_count("Hello, hello World!"))
 
     print("\nQ2:")
-    print(word_count_counter("Hello, hello World-"))
+    print(word_count_counter("Hello, hello World,"))
 
     print("\nQ3 (Using Loop):")
     print(flatten([[1, 2], [3, 4], [5]]))
 
-    print("\nQ3 (Using List Comprehension):")
+    print("\nQ3 (Using List Comp):")
     print(flatten_comp([[1, 2], [3, 4], [5]]))
 
     print("\nQ4:")
@@ -100,4 +103,6 @@ if __name__ == "__main__":
         print(mean_of_file("number.txt"))
 
     except FileNotFoundError:
-        print("File not found")
+        print("File not found)
+
+
