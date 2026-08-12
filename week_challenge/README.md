@@ -537,20 +537,11 @@ week_challenge/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-├── screenshots/
-│   ├── partA-output.png
-│   ├── top-customers.png
-│   ├── revenue-by-country.png
-│   ├── best-selling-tracks.png
-│   └── monthly-revenue.png
-│
-├── partA/
-│   ├── main.py
-│   └── data/
+│── csvstat.py
+│── sample/
 │       └── file1.csv
 │
-└── partB/
-    └── sql/
+└── sql/
         ├── top_customers.sql
         ├── revenue_by_country.sql
         ├── best_selling_tracks.sql
@@ -567,13 +558,6 @@ The project ignores unnecessary local and generated files such as:
 .venv/
 venv/
 __pycache__/
-*.pyc
-.DS_Store
-*.db
-*.sqlite
-*.sqlite3
-.vscode/
-.idea/
 ```
 
 ---
@@ -595,7 +579,7 @@ Part A uses Python standard-library modules, so no external Python packages are 
 
 ## Part A
 
-<img width="1470" height="502" alt="Screenshot 2026-08-12 at 11 03 35 AM" src="https://github.com/user-attachments/assets/118f7613-06ce-4f6b-96d2-1e67da177666" />
+<img width="1468" height="885" alt="Screenshot 2026-08-12 at 2 39 48 PM" src="https://github.com/user-attachments/assets/dd4e846d-d0d5-4744-b78a-f2fdde6b02fa" />
 
 
 ## Query 1 - Top Customers
