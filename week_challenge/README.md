@@ -323,7 +323,30 @@ sqlite3 ~/Downloads/Chinook_Sqlite.sqlite < revenue_by_country.sql
 Paste the actual terminal output here:
 
 ```text
-PASTE QUERY 2 ACTUAL OUTPUT HERE
+USA|523.06
+Canada|303.96
+France|195.1
+Brazil|190.1
+Germany|156.48
+United Kingdom|112.86
+Czech Republic|90.24
+Portugal|77.24
+India|75.26
+Chile|46.62
+Ireland|45.62
+Hungary|45.62
+Austria|42.62
+Finland|41.62
+Netherlands|40.62
+Norway|39.62
+Sweden|38.62
+Spain|37.62
+Poland|37.62
+Italy|37.62
+Denmark|37.62
+Belgium|37.62
+Australia|37.62
+Argentina|37.62
 ```
 
 ## Insight
@@ -378,7 +401,16 @@ sqlite3 ~/Downloads/Chinook_Sqlite.sqlite < best_selling_tracks.sql
 Paste the actual terminal output here:
 
 ```text
-PASTE QUERY 3 ACTUAL OUTPUT HERE
+2|Balls to the Wall|2
+8|Inject The Venom|2
+9|Snowballed|2
+20|Overdose|2
+32|Deuces Are Wild|2
+48|Not The Doctor|2
+66|Por Causa De Você|2
+84|Welcome Home (Sanitarium)|2
+161|Snowblind|2
+162|Cornucopia|2
 ```
 
 ## Insight
@@ -431,7 +463,18 @@ sqlite3 ~/Downloads/Chinook_Sqlite.sqlite < monthly_revenue.sql
 Paste the actual terminal output here:
 
 ```text
-PASTE QUERY 4 ACTUAL OUTPUT HERE
+2013-01|37.62
+2013-02|27.72
+2013-03|37.62
+2013-04|33.66
+2013-05|37.62
+2013-06|37.62
+2013-07|37.62
+2013-08|37.62
+2013-09|37.62
+2013-10|37.62
+2013-11|49.62
+2013-12|38.62
 ```
 
 ## Insight
@@ -441,7 +484,7 @@ This query shows how revenue changes from month to month during 2013.
 
 # Running All SQL Queries
 
-From the `partB/sql` directory:
+From the `sql` directory:
 
 ### Top Customers
 
@@ -540,7 +583,6 @@ week_challenge/
 │── csvstat.py
 │── sample/
 │       └── file1.csv
-│
 └── sql/
         ├── top_customers.sql
         ├── revenue_by_country.sql
@@ -573,7 +615,6 @@ Part A uses Python standard-library modules, so no external Python packages are 
 
 ---
 
-# Screenshots
 
 ## Screenshots
 
