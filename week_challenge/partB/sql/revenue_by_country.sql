@@ -1,10 +1,7 @@
+--Revenue by Country
 Select
-    Track.TrackId,
-    Track.Name AS TrackName,
-    SUM(InvoiceLine.Quantity) AS QuantitySold
-From Track
-Join InvoiceLine
-    ON Track.TrackId = InvoiceLine.TrackId
-Group by Track.TrackId
-Order by QuantitySold DESC
-Limit 10;
+    BillingCountry AS Country,
+    Round(SUM(Total), 2) AS Revenue
+From Invoice
+Group By BillingCountry
+Order BY Revenue Desc
