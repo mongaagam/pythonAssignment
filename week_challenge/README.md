@@ -553,13 +553,13 @@ Part A uses Python standard-library modules, so no external Python packages are 
 
 ## Part A
 
-![Part A Output](https://github.com/user-attachments/assets/7f0142cf-c080-451e-a58e-4f1811b4611c)
+<img width="1470" height="502" alt="Screenshot 2026-08-12 at 11 03 35 AM" src="https://github.com/user-attachments/assets/118f7613-06ce-4f6b-96d2-1e67da177666" />
 
----
 
 ## Query 1 - Top Customers
 
-![Query 1 Output](https://github.com/user-attachments/assets/e3f1aa9b-47b8-4075-9e5c-22c75c27d702)
+<img width="1469" height="140" alt="Screenshot 2026-08-12 at 10 58 50 AM" src="https://github.com/user-attachments/assets/9ed58a09-58d4-43ef-8195-eb3f01b5e842" />
+
 
 ---
 ## Query 2 - Revenue by Country
