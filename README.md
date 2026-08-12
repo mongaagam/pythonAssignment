@@ -1,10 +1,10 @@
 # Python Assignments
 
-This repository contains all Python assignments and Git/GitHub workflow labs completed during the training.
+This repository contains all Python assignments, labs, and Git/GitHub workflow exercises completed during the training.
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 pythonAssignment/
@@ -34,79 +34,121 @@ pythonAssignment/
 │   ├── top_words.sh
 │   └── README.md
 │
+├── Lab_5/SQL
+│   ├── chinook.db
+│   ├── chinook_sqlite.db
+│   ├── query1.sql
+│   ├── query2.sql
+│   ├── query3.sql
+│   ├── query4.sql
+│   └── query5.sql
+│
+├── week_challenge/
+│   ├── README.md
+│   ├── .gitignore
+│   ├── requirements.txt
+│   │
+│   ├── partA/
+│   │   ├── main.py
+│   │   └── data/
+│   │       └── file1.csv
+│   │
+│   └── partB/
+│       └── sql/
+│           ├── best_selling_tracks.sql
+│           ├── monthly_revenue.sql
+│           ├── revenue_by_country.sql
+│           └── top_customers.sql
+│
 └── README.md
 ```
 
 ---
 
-# Labs
+## Assignments and Labs
 
-## Assignment 0
+### Assignment 0
 
-- Python installation and environment setup.
-- Basic Python syntax and practice.
+Basic Python programming and assignment exercises.
 
----
+### Lab 1
 
-## Lab 1
+Python programming exercises and practice tasks.
 
-- Basic Python programming concepts.
-- Variables, operators, loops, and conditional statements.
+### Lab 2
 
----
+Python scripting, virtual environment setup, package management, and Git workflow.
 
-## Lab 2
+### Lab 3
 
-- Functions
-- File handling
-- Exception handling
-- Collections
-- List operations
-- Python scripting
+Git and GitHub workflow exercises.
 
----
+### Lab 4
 
-## Lab 3
+Command-line and shell scripting exercises, including text processing and word-frequency analysis.
 
-Git and GitHub workflow using the Lab 2 implementation.
+### Lab 5
 
-Topics covered:
+SQL and SQLite exercises using the Chinook database.
 
-- Creating feature branches
-- Meaningful commits
-- Pull Request creation
-- Code review
-- Follow-up commits
-- Merging Pull Requests
-- Branch cleanup
+The Lab 5 work includes SQL queries for data analysis and database operations.
 
----
+### Week Challenge
 
-## Lab 4
+The Week Challenge contains Python programming and SQL tasks.
 
-Command Line and Bash scripting.
+#### Part A - Python CSV Analysis
 
-Topics covered:
+Includes:
 
-- Downloading files using `curl`
-- Counting lines, words, and characters using `wc`
-- Finding the most frequent words using `tr`, `sort`, `uniq`, and `head`
-- Creating a reusable Bash script (`top_words.sh`)
-- Making Bash scripts executable using `chmod`
-- Testing the script with different text files
+* CSV file processing
+* Command-line arguments using `argparse`
+* Data type detection
+* Row and column analysis
+* Statistical calculations
+* Top customer analysis
+
+#### Part B - SQL Analysis
+
+Includes SQL queries for:
+
+* Top Customers
+* Revenue by Country
+* Best Selling Tracks
+* Monthly Revenue
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-- Python
-- Bash
-- Git
-- GitHub
-- Linux Command Line
+* Python
+* SQL
+* SQLite
+* Bash
+* Git
+* GitHub
+* Jupyter Notebook
 
 ---
 
-# Author
+## Git Workflow
 
-**Agam Monga**
+The assignments are maintained using Git and GitHub.
+
+Common workflow:
+
+```bash
+git status
+git add .
+git commit -m "Commit message"
+git pull
+git push
+```
+
+Branches are used to organize and manage assignment work.
+
+---
+
+## Repository Purpose
+
+This repository is used to maintain Python assignments, SQL exercises, shell scripting labs, and weekly challenges completed during training.
