@@ -10,9 +10,7 @@ def rows(path):
 
         # Skip header
         next(reader, None)
-
         count = 0
-
         for row in reader:
             count += 1
 
@@ -23,9 +21,7 @@ def rows(path):
 def columns(path):
     with open(path, "r") as file:
         reader = csv.reader(file)
-
         header = next(reader, None)
-
         if header is None:
             return 0
 
