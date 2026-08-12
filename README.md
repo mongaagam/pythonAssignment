@@ -47,18 +47,15 @@ pythonAssignment/
 │   ├── README.md
 │   ├── .gitignore
 │   ├── requirements.txt
-│   │
-│   ├── partA/
-│   │   ├── main.py
-│   │   └── data/
+│   │── csvstat.py
+│   │── sample/
 │   │       └── file1.csv
 │   │
-│   └── partB/
-│       └── sql/
-│           ├── best_selling_tracks.sql
-│           ├── monthly_revenue.sql
-│           ├── revenue_by_country.sql
-│           └── top_customers.sql
+│   └── sql
+│        ├── best_selling_tracks.sql
+│        ├── monthly_revenue.sql
+│        ├── revenue_by_country.sql
+│        └── top_customers.sql
 │
 └── README.md
 ```
