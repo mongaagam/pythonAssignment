@@ -1,3 +1,4 @@
+--Monthly Revenue
 Select
     strftime('%Y-%m', InvoiceDate) AS month,
     ROUND(SUM(Total), 2) AS revenue
